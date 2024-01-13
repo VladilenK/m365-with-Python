@@ -26,4 +26,3 @@ site = requests.get(
 
 print(site.content)
 print(json.loads(site.content)["webUrl"])
-

@@ -164,5 +164,8 @@ cython_debug/
 # my
 oauth_settings.yml
 oauth_settings.yml.*
-.gitignore
+
 secrets.*
+config.*
+*.cnf
+*.cfg
