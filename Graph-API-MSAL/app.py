@@ -38,3 +38,18 @@ else:
     print(result.get("error_description"))
     print(result.get("correlation_id"))  # You might need this when reporting a bug.
 
+
+http_headers = {'Authorization': 'Bearer ' + result['access_token'],
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'}
+
+graph_url = 'https://graph.microsoft.com/v1.0/sites/root'
+
+site = requests.get(
+    graph_url,
+    headers=http_headers
+).json()
+
+print(site)
+print(site["webUrl"])
+
