@@ -5,6 +5,8 @@ Authentication with client id and client secret. Check [this article to get an u
 Microsoft Graph API used methods:
 - [working with SharePoint Sites](https://learn.microsoft.com/en-us/graph/api/resources/site)
 - [working with SharePoint Lists](https://learn.microsoft.com/en-us/graph/api/resources/list)
+- [working with SharePoint List Items](https://learn.microsoft.com/en-us/graph/api/resources/listitem)
+- [working with SharePoint Document Libraries](https://learn.microsoft.com/en-us/graph/api/resources/drive)
 
 Only requests and json modules (no other Microsoft or 3-rd party modules) are used
 
